@@ -43,7 +43,7 @@ sh-4.2$
 
 Jupyter で `manabiya` ディレクトリに移動する。  
 Jupyter の \[Upload\] ボタンをクリックし、用意されたデータ `data-manabiya.tar.gz` をアップロードする。  
-その後再びターミナルを開き、以下のコマンドを実行する：
+アップロード完了後、再び Jupyter のターミナルを開き、以下のコマンドを実行する：
 
 ```sh
 sh-4.2$ cd /home/ec2-user/SageMaker/manabiya
