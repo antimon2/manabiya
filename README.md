@@ -27,9 +27,9 @@ sh-4.2$ git clone https://github.com/antimon2/models.git
 Cloning into 'models'...
  : 《中略》
 sh-4.2$ cd models
-sh-4.2$ git checkout manabiya
-Branch manabiya set up to track remote branch manabiya from origin.
-Switched to a new branch 'manabiya'
+sh-4.2$ git status
+On branch manabiya
+Your branch is up-to-date with 'origin/manabiya'.
 sh-4.2$ cd ../manabiya
 sh-4.2$ curl -O http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_2017_11_17.tar.gz
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -55,7 +55,7 @@ sh-4.2$
 
 指示に従って `.ipynb` ファイルを順次開き、上から順に実行する。
 
-+ manabiya-af-annotation-2-tf-records.ipynb
-+ manabiya-train-af.ipynb
-+ manabiya_object_detection_manabiya_trained.ipynb
++ Step1_DataConvert.ipynb
++ Step2_Train.ipynb
++ Step3_Detect.ipynb
 
