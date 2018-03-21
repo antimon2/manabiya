@@ -4,6 +4,7 @@ data-manabiya.tar.gz
 data-manabiya/
 frozen/
 label_map.pbtxt
+input_data_id_2_input_name.json
 ssd_mobilenet_v1_coco_2017_11_17.tar.gz
 ssd_mobilenet_v1_coco_2017_11_17/
 train/
