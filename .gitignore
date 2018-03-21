@@ -1,5 +1,5 @@
 .ipynb_checkpoints/
-af_dataset.record
+af_dataset*.record
 data-manabiya.tar.gz
 data-manabiya/
 frozen/
