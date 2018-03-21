@@ -174,7 +174,7 @@ train_config: {
 
 train_input_reader: {
   tf_record_input_reader {
-    input_path: "./af_dataset.record"
+    input_path: "./af_dataset_train.record"
   }
   label_map_path: "./label_map.pbtxt"
 }
@@ -188,7 +188,7 @@ eval_config: {
 
 eval_input_reader: {
   tf_record_input_reader {
-    input_path: "./af_dataset.record"
+    input_path: "./af_dataset_eval.record"
   }
   label_map_path: "./label_map.pbtxt"
   shuffle: false
