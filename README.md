@@ -39,17 +39,24 @@ sh-4.2$ tar xzf ssd_mobilenet_v1_coco_2017_11_17.tar.gz
 sh-4.2$ 
 ```
 
-### 3. データアップロード
+### 3. データセットを取得
 
-Jupyter で `manabiya` ディレクトリに移動する。  
-Jupyter の \[Upload\] ボタンをクリックし、用意されたデータ `data-manabiya.tar.gz` をアップロードする。  
-アップロード完了後、再び Jupyter のターミナルを開き、以下のコマンドを実行する：
+ハンズオン用に講師が作成したデータセット一式を取得します。このデータセットには以下が含まれています。
+
+* 花札の画像
+* 画像のどこにどの種類の札があるかを記したアノテーション（教師データ）
+
+
+Jupyter のターミナルで、以下のコマンドを実行：
 
 ```sh
 sh-4.2$ cd /home/ec2-user/SageMaker/manabiya
+sh-4.2$ wget https://s3-us-west-2.amazonaws.com/sagemaker-krs-manabiya/data-manabiya.tar.gz
 sh-4.2$ tar xzf data-manabiya.tar.gz
 sh-4.2$ 
 ```
+
+
 
 ### 4. notebook 実行
 
